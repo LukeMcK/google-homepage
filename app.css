@@ -1,0 +1,103 @@
+#navbar {
+  margin: 15px;
+}
+#navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+#navbar ul li a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+#navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+#menuGrid {
+  width: 60px;
+  height: auto;
+}
+
+#signIn {
+  border-radius: 50%;
+}
+
+#logoDiv {
+  text-align: center;
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+#searchBar {
+  display: inline-block;
+  width: 80%;
+  border-radius: 10px;
+  height: 25px;
+  border: 1px solid rgb(218, 216, 216);
+}
+
+#buttonDiv {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+#leftSection {
+  justify-content: flex-start;
+}
+
+#rightSection {
+  justify-content: flex-end;
+}
+
+.searchButton {
+  width: 120px;
+  border-radius: 5px;
+  height: 30px;
+  background-color: rgb(236, 234, 234);
+  border: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: rgb(236, 234, 234);
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerList {
+  display: flex;
+  width: 50%;
+}
+
+.footerList li {
+  margin: 20px 15px;
+}
+
+.footerList li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footerList li a:hover {
+  text-decoration: underline;
+}
